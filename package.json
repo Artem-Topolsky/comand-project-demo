@@ -1,11 +1,11 @@
 {
-  "name": "comand-project-demo",
+  "name": "Black_Sea",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/comand-project-demo/",
+    "build": "vite build --base=/Black_Sea/",
     "preview": "vite preview"
   },
   "devDependencies": {
