@@ -89,6 +89,13 @@ color: rgba(4, 3, 6, 0.4);
 margin: 0;
 }
 
+.reviews-victoria {
+    display: none;
+}
+.reviews-ihor {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .reviews-section {
     padding: 150px 0;
@@ -117,6 +124,10 @@ margin: 0;
 .reviews-klients {
 padding: 32px 20px;
 }
+.reviews-victoria {
+    display: block;
+
+}
 }
 
 @media screen and (min-width: 1280px) {
@@ -134,6 +145,10 @@ padding: 32px 20px;
 .reviews-klients {
 padding: 32px 28px;
 }
+.reviews-ihor {
+    display: block;
+}
+
 }
 
 @media screen and (min-width: 1440px) {
