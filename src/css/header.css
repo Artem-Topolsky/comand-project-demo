@@ -46,7 +46,7 @@ ol {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 335px;
+  max-width: 330px;
   height: 42px;
   padding: 0 20px;
   margin: 0 auto;
@@ -72,7 +72,7 @@ ol {
 
 .header-logo {
   display: block;
-  padding: 12px 215px 12px 20px;
+  padding: 5px 215px 5px 0;
 }
 
 .team-icon {
@@ -83,6 +83,7 @@ ol {
   padding: 0;
   border: none;
   background-color: transparent;
+  margin-right: 20px;
 }
 
 .burger-icon {
@@ -140,6 +141,10 @@ ol {
     display: flex;
     flex-direction: row;
     gap: 8px;
+  }
+  .team-icon:hover,
+  .team-icon:focus {
+    fill: #062730;
   }
 }
 
