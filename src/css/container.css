@@ -4,12 +4,14 @@
   padding: 0 20px;
   margin: 0 auto;
 }
+
 /* mob2 */
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .container {
     width: 100%;
   }
 }
+
 /* tablet */
 @media screen and (min-width: 768px) {
   .container {
@@ -17,6 +19,7 @@
     padding: 0 32px;
   }
 }
+
 /* desktop */
 @media screen and (min-width: 1280px) {
   .container {
@@ -24,9 +27,10 @@
     padding: 0 50px;
   }
 }
+
 /* desktop 2 */
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
   }
-}
+
