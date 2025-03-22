@@ -122,6 +122,8 @@ margin: 0;
 }
 
 .reviews-klients {
+width: 336px;
+height: 282px;
 padding: 32px 20px;
 }
 .reviews-victoria {
@@ -143,8 +145,11 @@ padding: 32px 20px;
     gap: 26px;
 }
 .reviews-klients {
+width: 376px;
+height: 282px;
 padding: 32px 28px;
 }
+
 .reviews-ihor {
     display: block;
 }
