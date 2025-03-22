@@ -47,6 +47,9 @@
     margin: 0;
     max-width: 285px;
 }
+.line-break {
+    max-width: 220px;
+}
 .adv-thumb {
     border-radius: 24px;
     overflow: hidden;
@@ -71,6 +74,9 @@
         font-size: 13px;
         line-height: 1.15;
     }
+    .line-break {
+        max-width: 215px;
+        }
 }
 @media screen and (min-width: 1280px) {
         
