@@ -8,6 +8,7 @@ margin: 0 auto 80px;
 .container-yacht{
    display: flex;
    flex-direction: column;
+   flex-shrink: 0;
 }
 .caption-text{
 font-weight: 500;
@@ -110,8 +111,10 @@ color: #fbfbfb;
     color: #1b414b;
 }
 
+
  .pictures-rent {
      border-radius: 24px;
+     object-fit: cover;
  }
 
 /* tab */
@@ -144,7 +147,7 @@ color: #fbfbfb;
     width: 194px;
         height: 56px
    }
- 
+  
 }
 
 
@@ -153,6 +156,9 @@ color: #fbfbfb;
 .capter{
     margin: 0;
 }
+ img {
+height: 536px;
+ }
 .caption-text{
     margin: 0 0 50px ;
 }
@@ -160,6 +166,7 @@ color: #fbfbfb;
 flex-direction: row-reverse;
 gap: 50px;
 }
+
 .button {
 margin: 50px 0 0;
 }
@@ -173,8 +180,17 @@ margin: 50px 0 0;
 .capter {
         margin: 0;
     }
-         .text-section{
-        padding: 0 0 50px ;
+
+    img{
+        display: block;
+        height: 534px;
+    }
+         .blok-texterea{
+      height:116px ;
+      
+         }
+         .blok-input{
+            height: 52px;
          }
     
        
