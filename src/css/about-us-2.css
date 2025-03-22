@@ -7,7 +7,7 @@
 /* #region mobile 375 */
 
 .about-section {
-    margin-top: -34px;
+    margin-top: -60px;
     padding-bottom: 80px;
 }
 
@@ -26,7 +26,7 @@
 .about-title {
     font-weight: 500;
     font-size: 28px;
-    line-height: 100%;
+    line-height: 1.0;
     letter-spacing: -0.02em;
     color: #1b414b;
     max-width: 272px;
@@ -40,7 +40,7 @@
 .about-text-descr {
     font-weight: 400;
     font-size: 18px;
-    line-height: 100%;
+    line-height: 1.0;
     letter-spacing: -0.02em;
     color: #1b414b;
     max-width: 272px;
@@ -52,7 +52,7 @@
 .about-text-offer {
     font-weight: 400;
     font-size: 12px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: -0.02em;
     color: #040306;
     max-width: 272px;
@@ -73,13 +73,12 @@
 
 @media screen and (min-width: 768px) {
     .about-section {
+        margin-top: -68px;
         padding-bottom: 150px;
     }
 
     .about-text-box {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-left: 32px;
+        padding: 50px 32px;
     }
 
     .about-title {
@@ -96,7 +95,7 @@
     .about-text-offer {
         font-size: 13px;
         max-width: 374px;
-        line-height: 115%;
+        line-height: 1.15;
     }
 }
 
@@ -105,11 +104,40 @@
 /* #region desktop 1280 */
 
 @media screen and (min-width: 1280px) {
+    .about-section {
+        margin-top: -34px;
+    }
+
+    .about-content {
+        border-radius: 24px;
+    }
+
     .about-text-box {
         display: flex;
+        justify-content: space-between;
+        padding: 50px 50px 100px 50px;
+    }
+
+    .about-title {
+        max-width: 536px;
+    }
+
+    .about-text-descr,
+    .about-text-offer {
+        max-width: 324px;
     }
 }
 
 
 
-@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 1440px) {
+
+    .about-text-descr,
+    .about-text-offer {
+        max-width: 382px;
+    }
+
+    .about-content {
+        border-radius: 24px;
+    }
+}
