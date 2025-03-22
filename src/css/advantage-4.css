@@ -1,3 +1,6 @@
+.section-advantages {
+    padding-bottom: 80px;
+}
 .adv-list {
     border-radius: 24px;
     background: #1b414b;
@@ -52,6 +55,9 @@
     object-fit: cover;
 }
 @media screen and (min-width: 768px) {
+    .section-advantages {
+        padding-bottom: 150px;
+        }
     .adv-list {
         padding: 90px 32px;
         gap: 44px 32px;
